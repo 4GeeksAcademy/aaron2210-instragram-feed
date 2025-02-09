@@ -1,0 +1,56 @@
+body{
+    font-family: "Slabo 27px", serif;
+    font-weight: 100;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+.emcabezado{
+    border-bottom: 1px;
+	border-color: #edeeee;
+	background: white;
+	overflow: hidden;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.emcabezado > div{
+    width: 600px;
+    margin: auto;
+}
+.contenedor{
+    width: 600px;
+	margin:auto;
+}
+article{
+    border: 1px solid white;
+	background: white;
+	margin-bottom: 100px;
+	border-radius: 2.5px;
+}
+article > header{
+	padding:0px 14px;
+}
+.titulo-post{
+    overflow: hidden;
+}
+.titulo-post h1{
+    font-size: 20px;
+}
+.Post > div{
+    width: 50%;
+	float:left;
+}
+.fecha-post{
+    text-align: right;
+    color: gray;
+}
+.foto-post{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.comentario-post{
+    padding:0px 24px;
+}
+img{
+    max-width: 598px;
+}
